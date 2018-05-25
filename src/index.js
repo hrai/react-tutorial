@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Games from "./Games.jsx";
 import Clock from "./Clock.jsx";
 import Toggle from "./Toggle.jsx";
+import NameForm from "./NameForm.jsx";
 import "./index.css";
 
 ReactDOM.render(
@@ -10,4 +11,5 @@ ReactDOM.render(
         <Games />
         <Clock />
         <Toggle />
+        <NameForm />
     </div>, document.getElementById("root"));
